@@ -2,6 +2,7 @@
   "name": "my-pr-reviewer",
   "version": "1.0.0",
   "main": "webhook.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.0.1",
     "express": "^5.1.0",
-    "lsof": "^0.0.4"
+    "lsof": "^0.0.4",
+    "node-fetch": "^3.3.2"
   }
 }
